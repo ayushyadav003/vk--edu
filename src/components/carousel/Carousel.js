@@ -28,7 +28,7 @@ function CustomCarousel() {
   return (
     <div className='banner__container'>
       <Carousel interval="8000" transitionTime="1000"
-       autoPlay infiniteLoop showStatus={false} showThumbs={false} width="100vw">
+       autoPlay showArrows={true} infiniteLoop showStatus={false} showThumbs={false} width="100vw">
         {
           data.map(item =>
             <div key={id} className='banner__content'>

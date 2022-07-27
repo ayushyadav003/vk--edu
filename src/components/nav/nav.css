@@ -7,11 +7,33 @@
 .nav__logo{
     color: #fff ;
     width: fit-content;
-    margin-right: auto;
+    margin: auto auto auto 0 ;
+    font-size: 15px;
 }
 
 a{
     text-decoration: none;
     color: #fff;
     margin-left: 25px;
+}
+.hamburger{
+    display: none;
+}
+.list{
+    width: 12rem;
+    text-align: center;
+    padding: 0 10px;
+    margin-top: 2rem;
+}
+.list p{
+    border-bottom: 1px solid gray;
+}
+@media screen and (max-width: 720px) {
+    .nav__options{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        color: #fff;
+    }
 }
