@@ -1,0 +1,85 @@
+.services__card__container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px;
+    border: 1px solid lightgray;
+    border-bottom: none;
+    border-right: none;
+
+}
+.services__card{
+    display: grid;
+    grid-auto-flow: column;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    color: #000;
+    letter-spacing: 0.01rem;
+    line-height: 20px;
+    height: 25vh;
+    align-items: center;
+
+}
+.grad_icon{
+    font-size: 50px;
+    height: fit-content;    
+}
+
+.services__card span{
+    color: gray;
+}
+.services__card p{
+    font-size: 45px;
+    color: #e32845;
+    animation: myAnim 3s ease 0s infinite normal forwards;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
+
+@media screen and (max-width: 768px) {
+    .services__card__container{
+        grid-auto-flow: row;
+        padding: 10px;
+    }
+    .services__card{
+        width: 90%;
+        line-height: 15px;
+        border: none;
+        border-bottom: 1px solid lightgrey;
+        margin: auto;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .services__card h3{
+        font-size: 15px;
+    }
+}
