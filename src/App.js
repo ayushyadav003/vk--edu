@@ -5,14 +5,10 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './pages/home';
 import Contact from './pages/contact-us';
 import NotFound from './pages/404'
-import { useState } from 'react';
 
 
 function App() {
 
-  const[value, setValue] = useState('');
-
-  console.log(value);
 
   return (
     <div className="App">

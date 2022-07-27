@@ -1,4 +1,3 @@
-import { height } from '@mui/system';
 import React from 'react';
 import './Course.css'
 
@@ -40,8 +39,8 @@ function Courses() {
       </div>
        <div className='services__card__container'>
         {
-          data.map(item=>
-            <div className='services__card' >
+          data.map((item, i)=>
+            <div key={i} className='services__card' >
               <div style={{display:"flex",justifyContent:'center'}}>
                 <div className='grad_icon'>&#127891;</div>
                 <div>
