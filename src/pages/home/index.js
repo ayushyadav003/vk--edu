@@ -1,4 +1,5 @@
 import React from 'react'
+import About from '../../components/about/About'
 import CustomCarousel from '../../components/carousel/Carousel'
 import Contactus from '../../components/contactus/Contactus'
 import Courses from '../../components/courses/Courses'
@@ -13,6 +14,7 @@ function index() {
       <CustomCarousel />
       <Courses />
       <Contactus />
+      <About />
       <Faculty />
       <Footer />
     </div>

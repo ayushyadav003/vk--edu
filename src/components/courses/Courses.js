@@ -33,7 +33,7 @@ function Courses() {
   ]
 
   return (
-    <div id='contact'>
+    <div id='courses'>
       <div style={{marginTop:"1rem"}}>
         <img src='assets/banner2.png' height="180px" width="700px" alt='education'/>
         <img src='assets/banner.jpg' height="180px" width="700px" alt='education'/>

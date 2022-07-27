@@ -10,8 +10,8 @@ function Navbar() {
           VKEdu
         </div>
         <div>
-          <a href=''>About</a>
-          <a href=''>Courses</a>
+          <a href='#about1'>About</a>
+          <a href='#courses'>Courses</a>
           <a href="#contact">Contact Us</a>
         </div>
       </div>

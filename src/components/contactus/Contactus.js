@@ -1,5 +1,9 @@
 import React from 'react';
 import './contact.css';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import EmailIcon from '@mui/icons-material/Email';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
 function Contactus() {
 
@@ -29,6 +33,12 @@ function Contactus() {
     
         <input type='submit' />
         </form>
+        <div className='contact__icons'>
+          <WhatsAppIcon fontSize='large' />
+          <FacebookIcon fontSize='large' /> 
+          <LocalPhoneIcon fontSize='large' />
+          <EmailIcon fontSize='large' />
+        </div>
         </div>
     </div>
     </div>
