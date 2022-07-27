@@ -34,7 +34,7 @@ function CustomCarousel() {
             <div key={id} className='banner__content'>
               <h2>{item.text}</h2>
               <p>{item.subtext}</p>
-              <button>Start a Journey</button>
+              <button>Start a new Journey</button>
             </div>
             )
         }
