@@ -59,7 +59,7 @@ function Faculty() {
         {
             data.map((item, i) => 
                 <div key={i} className='faculty__card'>
-                    <img src={item.image} alt={item.name} width="400px" />
+                    <img src={item.image} alt={item.name} width="400px" loading='lazy' />
                     <h3>{item.name}</h3>
                     <p>{item.sub}</p>
                 </div>

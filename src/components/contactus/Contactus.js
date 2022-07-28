@@ -11,14 +11,13 @@ function Contactus() {
 
     }
     const newUserHandler = ()=>{
-
     }
 
   return (
     <div className='contact__container'>
         <div className="form">
         <div className='contact__images'>
-            <img src='assets/now2.jpg' alt="##" />
+            <img src='assets/now2.jpg' alt="##" loading='lazy'/>
         </div>  
         <div className='form_container'>
           <h2>ENROLL NOW</h2>

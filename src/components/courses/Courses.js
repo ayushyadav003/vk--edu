@@ -34,8 +34,8 @@ function Courses() {
   return (
     <div id='courses'>
       <div style={{marginTop:"1rem"}}>
-        <img src='assets/banner2.png' height="180px" width="700px" alt='education'/>
-        <img src='assets/banner.jpg' height="180px" width="700px" alt='education'/>
+        <img src='assets/banner2.png' height="180px" width="700px" alt='education' loading='lazy'/>
+        <img src='assets/banner.jpg' height="180px" width="700px" alt='education' loading='lazy'/>
       </div>
        <div className='services__card__container'>
         {

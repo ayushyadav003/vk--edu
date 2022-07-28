@@ -21,7 +21,7 @@ function About() {
             </p>
              </div>
         <div>
-            <img src="assets/about.jpg" alt='institute' />
+            <img src="assets/about.jpg" alt='institute' loading='lazy'/>
         </div>
     </div>
   )

@@ -18,18 +18,6 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
-      {/* <input type="text" onChange={(e)=>setValue(e.target.value)}/>
-    {
-      ["Ayush","yadav","arjun","vikash","aman"].filter(item => {
-          if(value === ''){
-            return item
-          }
-          else if(item.toLowerCase().includes(value.toLowerCase())){
-            return item;
-          }
-      }).map(item =>
-      <p>{item}</p>
-    ) */}
     </div>
   );
 }
