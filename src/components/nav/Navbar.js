@@ -1,6 +1,6 @@
 import './nav.css';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
-import { SwipeableDrawer } from '@mui/material';
+import Drawer from '@mui/material/Drawer';
 import { useState } from 'react';
 
 function Navbar() {
@@ -20,8 +20,8 @@ function Navbar() {
         </div>
         <div className='hamburger'>
         <MenuOpenIcon onClick={()=>{setDrawer(true)}} />
-        <SwipeableDrawer
-          anchor='right'
+        <Drawer
+          anchor='right'    
           open={drawer}
           onOpen={()=>{setDrawer(true)}}
           onClose={()=>{setDrawer(false)}}
@@ -32,7 +32,7 @@ function Navbar() {
             <p href="#contact">Contact Us</p>
           </div>
         
-        </SwipeableDrawer>
+        </Drawer>
         </div>
 
       </div>
