@@ -19,7 +19,7 @@ function Courses() {
     {
       // image : "assets/service/piggy.png",
       text : "Diploma Courses",
-      subtext : "CS/CCC/IP",
+      subtext : "CS/CCC/MBA",
 
     },
     {
