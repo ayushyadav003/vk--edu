@@ -19,13 +19,13 @@ function Courses() {
     {
       // image : "assets/service/piggy.png",
       text : "Diploma Courses",
-      subtext : "MA/MEd/MCOM//B/MCA/MBA",
+      subtext : "CS/CCC/IP",
 
     },
     {
       // image : "assets/service/badge.png",
       text : "Government Job Prepration",
-      subtext : "CSC/CTET/BANK PO//SSC/Railxays",
+      subtext : "CSC/CTET/BANK PO//SSC/Railways",
 
     },    
     
